@@ -8,10 +8,11 @@ Es decir, un programa que presente para el 1:
 …
 1 x 10 = 10*/
 
-
 int res = 0;
-for (int i = 1; i < 11; i++)
+int i = 1;
+while (i <= 10)
 {
     res = 1 * i;
     Console.WriteLine("1 x {0} = {1}", i, res);
+    i++;
 }
